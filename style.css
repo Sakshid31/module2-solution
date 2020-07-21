@@ -1,1 +1,134 @@
-
+ * {
+        box-sizing:border-box;
+    }
+    body {
+           background-color:#FFF0F5;;
+    }
+    h1 {
+      margin:100px;
+      text-align:center;
+      font-family:Helvetica;
+      font-weight:bold;
+      font-size:170%;
+    }
+    section {
+      position:relative;
+      padding:20px;
+      width:100px;
+    }
+    p {
+      position:relative;
+      clear:right;
+    }
+    div {
+      position:relative;
+      background-color:#A9A9A9;
+      border:1px solid black;
+      width:100%;
+      margin-left:auto;
+      margin-right:auto;
+      margin-bottom:auto;
+    }
+    .sub {
+      float:right;
+      width:100px;
+      padding:10px;
+      margin:0px;
+      border:1px solid black;
+      tex-align:center;
+      font-size:120%;
+      font-weight:bold;
+      background-color:#FFFF00;
+    }
+    .content {
+      padding:10px;
+      border:none;
+      background-color:#A9A9A9;
+      font-family:Helvetica;
+      color:black;
+      margin:0px;
+      height:200px;
+      overflow:auto;
+    }
+    .row {
+      width:100%;
+    }
+     * {
+        box-sizing:border-box;
+    }
+    body {
+           background-color:#FFF0F5;;
+    }
+    h1 {
+      margin:100px;
+      text-align:center;
+      font-family:Helvetica;
+      font-weight:bold;
+      font-size:170%;
+    }
+    section {
+      position:relative;
+      padding:20px;
+      width:100px;
+    }
+    p {
+      position:relative;
+      clear:right;
+    }
+    div {
+      position:relative;
+      background-color:#A9A9A9;
+      border:1px solid black;
+      width:100%;
+      margin-left:auto;
+      margin-right:auto;
+      margin-bottom:auto;
+    }
+    .sub {
+      float:right;
+      width:100px;
+      padding:10px;
+      margin:0px;
+      border:1px solid black;
+      tex-align:center;
+      font-size:120%;
+      font-weight:bold;
+      background-color:#FFFF00;
+    }
+    .content {
+      padding:10px;
+      border:none;
+      background-color:#A9A9A9;
+      font-family:Helvetica;
+      color:black;
+      margin:0px;
+      height:200px;
+      overflow:auto;
+    }
+    .row {
+      width:100%;
+    }
+    @media (min-width:992px){
+            .column-lg-4 {
+                    float:left;
+                    width:33.33%;
+            }
+    }
+    @media (min-width:768px) and (max-width:991px){
+            .colmn-md-6 {
+                    float:left;
+                    width:50%;
+                    margin-left:auto;
+                    margin-right:auto;
+            }
+            .colmn-md-12 {
+                    float:left;
+                    width:100%;
+            }
+   }
+   @media (max-width:767px){
+           .colmn-sm-12 {
+                   float:left;
+                   width:100%;
+           }
+   }
