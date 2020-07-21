@@ -29,3 +29,14 @@
       margin-right:auto;
       margin-bottom:auto;
     }
+    .sub {
+      float:right;
+      width:100px;
+      padding:10px;
+      margin:0px;
+      border:1px solid black;
+      tex-align:center;
+      font-size:120%;
+      font-weight:bold;
+      background-color:#FFFF00;
+    }
